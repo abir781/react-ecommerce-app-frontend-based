@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
+import ImageZoom from './ImageZoom';
 
 const Productdetails = () => {
  const [dat,setdat]= useState({});
@@ -25,12 +26,9 @@ const Productdetails = () => {
           
                 
                     
-            <div className="w-[500px] h-[400px]  ">
-                    <img
-                     src={dat.images}
-                      alt=""
-                   className="w-full h-full object-contain transition-transform duration-300 hover:scale-140"
-                   />
+            <div className="w-[500px] h-[500px]  ">
+                  
+                   <ImageZoom src={dat.images?.[0]}/>
               </div>
 
 

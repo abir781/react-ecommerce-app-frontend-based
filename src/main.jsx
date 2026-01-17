@@ -9,6 +9,7 @@ import Productdetails from './Productdetails.jsx';
 
 
 
+
  const router = createBrowserRouter([
   {
     path: "/",
@@ -18,6 +19,7 @@ import Productdetails from './Productdetails.jsx';
     path:"/productdetails/:id",
     Component:Productdetails,
   }
+ 
 ]);
 
 createRoot(document.getElementById('root')).render(
