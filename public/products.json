@@ -63,7 +63,7 @@
     "price": 999,
     "description": "Premium leather wallet with multiple card slots.",
     "images": [
-      "./jpl.jpg"
+      "https://i.ibb.co.com/TBB9V5k1/jpl.jpg"
     ],
     "colors": ["Brown", "Black"],
     "sizes": ["One Size"],

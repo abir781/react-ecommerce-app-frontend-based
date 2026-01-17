@@ -5,6 +5,19 @@ import ImageZoom from './ImageZoom';
 const Productdetails = () => {
  const [dat,setdat]= useState({});
 
+
+ const addtocart =(jontu)=>{
+    console.log(jontu);
+     // 1️⃣ get existing cart
+  const existingCart = JSON.parse(localStorage.getItem("cart")) || [];
+
+  // 2️⃣ add new product using spread operator
+  const updatedCart = [...existingCart, jontu];
+
+  // 3️⃣ save back
+  localStorage.setItem("cart", JSON.stringify(updatedCart));
+ }
+
    const { id } = useParams();
 
    console.log(id);
@@ -22,13 +35,14 @@ const Productdetails = () => {
     } )
 }, [id]);
     return (
-        <div className='w-7/12 mx-auto mt-[80px]'>
-          
-                
-                    
-            <div className="w-[500px] h-[500px]  ">
+        <div className='w-7/12 mx-auto mt-[80px] flex'>
+
+
+            <div>
+                   <div className="w-[500px] h-[500px]  ">
                   
-                   <ImageZoom src={dat.images?.[0]}/>
+                  <ImageZoom src={dat.images?.[0] } />
+
               </div>
 
 
@@ -43,6 +57,16 @@ const Productdetails = () => {
 ))}</p>
 
 
+          </div>
+
+            </div>
+          
+                
+                    
+           
+
+          <div className=' flex items-center'>
+            <button className='bg-black px-4 py-4 text-white font-bold' onClick={()=>{addtocart(dat)}}>ADD TO CART</button>
           </div>
 
            
