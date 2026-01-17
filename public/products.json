@@ -1,0 +1,297 @@
+[
+  {
+    "id": "p1",
+    "title": "Classic Cotton T-Shirt",
+    "price": 899,
+    "description": "Soft breathable cotton t-shirt",
+    "images": [
+      "https://i.ibb.co.com/cR7C1Ym/two.jpg",
+      "https://i.ibb.co.com/cR7C1Ym/two.jpg"
+      
+    ],
+    "colors": ["Black", "White", "Navy"],
+    "sizes": ["S", "M", "L", "XL"],
+    "rating": 4.3,
+    "reviews": 128
+  },
+  {
+    "id": "p2",
+    "title": "Slim Fit Denim Jeans",
+    "price": 2199,
+    "description": "Modern slim fit denim jeans with stretch comfort.",
+    "images": [
+      "https://i.ibb.co.com/cR7C1Ym/two.jpg",
+      "https://i.ibb.co.com/7xfDcyyY/one.jpg"
+    ],
+    "colors": ["Blue", "Dark Blue"],
+    "sizes": ["30", "32", "34", "36"],
+    "rating": 4.5,
+    "reviews": 96
+  },
+  {
+    "id": "p3",
+    "title": "Casual Hoodie",
+    "price": 1799,
+    "description": "Warm and stylish hoodie for casual outings.",
+    "images": [
+      "https://i.ibb.co.com/j9yBkKvH/two.jpg",
+      "https://i.ibb.co.com/7xfDcyyY/one.jpg"
+    ],
+    "colors": ["Gray", "Black", "Olive"],
+    "sizes": ["M", "L", "XL"],
+    "rating": 4.2,
+    "reviews": 74
+  },
+  {
+    "id": "p4",
+    "title": "Running Sneakers",
+    "price": 3499,
+    "description": "Lightweight running sneakers with cushioned sole.",
+    "images": [
+      "https://i.ibb.co.com/7xfDcyyY/one.jpg",
+      "/images/p4-2.jpg",
+      "/images/p4-3.jpg"
+    ],
+    "colors": ["White", "Red"],
+    "sizes": ["40", "41", "42", "43"],
+    "rating": 4.6,
+    "reviews": 210
+  },
+  {
+    "id": "p5",
+    "title": "Leather Wallet",
+    "price": 999,
+    "description": "Premium leather wallet with multiple card slots.",
+    "images": [
+      "./jpl.jpg"
+    ],
+    "colors": ["Brown", "Black"],
+    "sizes": ["One Size"],
+    "rating": 4.4,
+    "reviews": 65
+  },
+
+  {
+    "id": "p6",
+    "title": "Formal Shirt",
+    "price": 1599,
+    "description": "Elegant formal shirt for office and events.",
+    "images": ["/images/p6-1.jpg", "/images/p6-2.jpg"],
+    "colors": ["White", "Sky Blue"],
+    "sizes": ["S", "M", "L", "XL"],
+    "rating": 4.1,
+    "reviews": 89
+  },
+  {
+    "id": "p7",
+    "title": "Sports Watch",
+    "price": 4999,
+    "description": "Water-resistant sports watch with fitness tracking.",
+    "images": ["/images/p7-1.jpg", "/images/p7-2.jpg"],
+    "colors": ["Black", "Green"],
+    "sizes": ["One Size"],
+    "rating": 4.7,
+    "reviews": 312
+  },
+  {
+    "id": "p8",
+    "title": "Wireless Headphones",
+    "price": 2999,
+    "description": "Noise-isolating wireless headphones with deep bass.",
+    "images": ["/images/p8-1.jpg", "/images/p8-2.jpg"],
+    "colors": ["Black", "Blue"],
+    "sizes": ["One Size"],
+    "rating": 4.5,
+    "reviews": 198
+  },
+  {
+    "id": "p9",
+    "title": "Summer Shorts",
+    "price": 1099,
+    "description": "Comfortable summer shorts with elastic waist.",
+    "images": ["/images/p9-1.jpg"],
+    "colors": ["Khaki", "Black"],
+    "sizes": ["M", "L", "XL"],
+    "rating": 4.0,
+    "reviews": 52
+  },
+  {
+    "id": "p10",
+    "title": "Backpack",
+    "price": 2499,
+    "description": "Durable backpack suitable for travel and daily use.",
+    "images": ["/images/p10-1.jpg", "/images/p10-2.jpg"],
+    "colors": ["Gray", "Black"],
+    "sizes": ["One Size"],
+    "rating": 4.6,
+    "reviews": 144
+  },
+
+  {
+    "id": "p11",
+    "title": "Casual Sneakers",
+    "price": 2899,
+    "description": "Everyday casual sneakers with modern design.",
+    "images": ["/images/p11-1.jpg"],
+    "colors": ["White", "Black"],
+    "sizes": ["41", "42", "43"],
+    "rating": 4.3,
+    "reviews": 91
+  },
+  {
+    "id": "p12",
+    "title": "Leather Belt",
+    "price": 799,
+    "description": "Classic leather belt for formal and casual wear.",
+    "images": ["/images/p12-1.jpg"],
+    "colors": ["Black", "Brown"],
+    "sizes": ["M", "L"],
+    "rating": 4.2,
+    "reviews": 47
+  },
+  {
+    "id": "p13",
+    "title": "Polo Shirt",
+    "price": 1299,
+    "description": "Stylish polo shirt with breathable fabric.",
+    "images": ["/images/p13-1.jpg"],
+    "colors": ["Red", "Navy", "White"],
+    "sizes": ["S", "M", "L"],
+    "rating": 4.4,
+    "reviews": 102
+  },
+  {
+    "id": "p14",
+    "title": "Winter Jacket",
+    "price": 5999,
+    "description": "Warm padded jacket for cold weather.",
+    "images": ["/images/p14-1.jpg", "/images/p14-2.jpg"],
+    "colors": ["Black", "Olive"],
+    "sizes": ["M", "L", "XL"],
+    "rating": 4.8,
+    "reviews": 67
+  },
+  {
+    "id": "p15",
+    "title": "Sunglasses",
+    "price": 1499,
+    "description": "UV-protected stylish sunglasses.",
+    "images": ["/images/p15-1.jpg"],
+    "colors": ["Black", "Brown"],
+    "sizes": ["One Size"],
+    "rating": 4.1,
+    "reviews": 39
+  },
+
+  {
+    "id": "p16",
+    "title": "Flip Flops",
+    "price": 499,
+    "description": "Lightweight flip flops for daily comfort.",
+    "images": ["/images/p16-1.jpg"],
+    "colors": ["Blue", "Black"],
+    "sizes": ["40", "41", "42"],
+    "rating": 3.9,
+    "reviews": 58
+  },
+  {
+    "id": "p17",
+    "title": "Smart Casual Shirt",
+    "price": 1699,
+    "description": "Perfect blend of casual and formal style.",
+    "images": ["/images/p17-1.jpg"],
+    "colors": ["Checkered", "Solid Blue"],
+    "sizes": ["M", "L", "XL"],
+    "rating": 4.3,
+    "reviews": 76
+  },
+  {
+    "id": "p18",
+    "title": "Jogger Pants",
+    "price": 1399,
+    "description": "Comfortable joggers for gym and lounging.",
+    "images": ["/images/p18-1.jpg"],
+    "colors": ["Gray", "Black"],
+    "sizes": ["M", "L", "XL"],
+    "rating": 4.2,
+    "reviews": 64
+  },
+  {
+    "id": "p19",
+    "title": "Beanie Cap",
+    "price": 399,
+    "description": "Warm beanie cap for winter.",
+    "images": ["/images/p19-1.jpg"],
+    "colors": ["Black", "Maroon"],
+    "sizes": ["One Size"],
+    "rating": 4.0,
+    "reviews": 31
+  },
+  {
+    "id": "p20",
+    "title": "Leather Shoes",
+    "price": 4599,
+    "description": "Formal leather shoes with premium finish.",
+    "images": ["/images/p20-1.jpg", "/images/p20-2.jpg"],
+    "colors": ["Brown", "Black"],
+    "sizes": ["41", "42", "43"],
+    "rating": 4.6,
+    "reviews": 83
+  },
+
+  {
+    "id": "p21",
+    "title": "Graphic T-Shirt",
+    "price": 999,
+    "description": "Trendy graphic printed t-shirt.",
+    "images": ["/images/p21-1.jpg"],
+    "colors": ["White", "Black"],
+    "sizes": ["S", "M", "L"],
+    "rating": 4.2,
+    "reviews": 54
+  },
+  {
+    "id": "p22",
+    "title": "Laptop Sleeve",
+    "price": 1199,
+    "description": "Protective laptop sleeve with soft padding.",
+    "images": ["/images/p22-1.jpg"],
+    "colors": ["Gray", "Black"],
+    "sizes": ["15-inch", "16-inch"],
+    "rating": 4.5,
+    "reviews": 72
+  },
+  {
+    "id": "p23",
+    "title": "Casual Cap",
+    "price": 349,
+    "description": "Adjustable casual cap for daily wear.",
+    "images": ["/images/p23-1.jpg"],
+    "colors": ["Blue", "Black"],
+    "sizes": ["One Size"],
+    "rating": 3.8,
+    "reviews": 26
+  },
+  {
+    "id": "p24",
+    "title": "Travel Duffel Bag",
+    "price": 3299,
+    "description": "Spacious duffel bag for travel and gym.",
+    "images": ["/images/p24-1.jpg"],
+    "colors": ["Black", "Navy"],
+    "sizes": ["One Size"],
+    "rating": 4.6,
+    "reviews": 119
+  },
+  {
+    "id": "p25",
+    "title": "Comfort Sandals",
+    "price": 1899,
+    "description": "Ergonomic sandals designed for all-day comfort.",
+    "images": ["/images/p25-1.jpg"],
+    "colors": ["Brown", "Black"],
+    "sizes": ["40", "41", "42", "43"],
+    "rating": 4.4,
+    "reviews": 68
+  }
+]
