@@ -1,9 +1,34 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import ImageZoom from './ImageZoom';
+import { FaHeart } from "react-icons/fa";
 
 const Productdetails = () => {
  const [dat,setdat]= useState({});
+ const [run,setrun]= useState(false);
+
+const brogotmoustache = (animal) => {
+  setrun(prev => {
+    const next = !prev;
+
+    if (next) {
+      // Add only once
+      const wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
+      const exists = wishlist.some(item => item.id === animal.id);
+      if(!exists){
+        localStorage.setItem("wishlist", JSON.stringify([...wishlist, animal]));
+      }
+    } else {
+      // Remove
+      const wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
+      const updated = wishlist.filter(item => item.id !== animal.id);
+      localStorage.setItem("wishlist", JSON.stringify(updated));
+    }
+
+    return next;
+  });
+};
+
 
 
  const addtocart =(jontu)=>{
@@ -65,8 +90,18 @@ const Productdetails = () => {
                     
            
 
-          <div className=' flex items-center'>
+          <div className=' flex items-center gap-5'>
             <button className='bg-black px-4 py-4 text-white font-bold' onClick={()=>{addtocart(dat)}}>ADD TO CART</button>
+            <button   onClick={()=>{brogotmoustache(dat)}}>
+              {
+                run ? (
+                  <FaHeart size={30} className='text-red-500' />
+
+                ):(
+                   <FaHeart size={30} />
+                )
+              }
+              </button>
           </div>
 
            
