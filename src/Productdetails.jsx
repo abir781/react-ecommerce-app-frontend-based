@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import ImageZoom from './ImageZoom';
+
 import { FaHeart } from "react-icons/fa";
 
 const Productdetails = () => {
@@ -66,7 +66,7 @@ const brogotmoustache = (animal) => {
             <div>
                    <div className="w-[500px] h-[500px]  ">
                   
-                  <ImageZoom src={dat.images?.[0] } />
+                 
 
               </div>
 

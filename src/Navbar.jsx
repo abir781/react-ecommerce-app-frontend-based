@@ -7,6 +7,7 @@ const Navbar = () => {
             <ul className='flex gap-5 text-white font-bold '>
                 <Link to={'/'}><li>Home</li></Link>
                 <Link to={'/cart'}><li>Cart</li></Link>
+                <Link to={'/login'}><li>login</li></Link>
             </ul>
             
         </div>

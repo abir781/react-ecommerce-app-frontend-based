@@ -3,6 +3,14 @@ import { Link } from 'react-router';
 
 const Start = () => {
     const [datas,setdata]= useState([]);
+    const [query, setquery]=useState("");
+
+    const callsearch = () =>{
+        
+       
+        const filterdata= datas.filter(item=>item.title.toLowerCase().includes(query.toLowerCase()));
+        setdata(filterdata);
+    }
 
  useEffect(() => {
   fetch('/products.json')
@@ -19,6 +27,10 @@ const Start = () => {
         <div className='bg-[#4350a2] min-h-screen '>
 
             <div className='max-w-11/12 mx-auto pt-8  '>
+
+
+
+            <input type="text" onKeyDown={callsearch} onChange={(e) => setquery(e.target.value)} className='w-[500px] h-7 border-2 border-green-500 mb-[40px] block mx-auto' placeholder='search by title' />
 
            
 
